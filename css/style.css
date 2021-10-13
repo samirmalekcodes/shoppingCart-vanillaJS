@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 *{
     margin: 0;
     box-sizing: border-box;
@@ -9,6 +10,7 @@ body{
     display: grid;
     place-items: center;
     margin: auto;
+    font-family: 'Lato', sans-serif;
 }
 
 .main-container{
@@ -21,6 +23,7 @@ body{
 .heading{
     text-align: center;
     margin: 30px 0px;
+    font-family: 'Lato', sans-serif;
 }
 
 .items-container{
@@ -84,6 +87,10 @@ img:hover, i:hover{
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.11);
 }
 
+hr{
+    color: rgba(253, 232, 232, 0.719);
+}
+
 .item-description{
     margin: 0 30px ;
     flex: 3;
@@ -91,6 +98,24 @@ img:hover, i:hover{
 
 }
 
+.total-container{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: 50px;
+    background-color: rgba(8, 4, 4, 0.116);
+    width: 100%;
+}
+
+.total-container .total{
+    padding-right: 10px;
+    font-size: 24px;
+}
+
+.total-container .total-price {
+    padding-left: 10px;
+    font-size: 20px;
+}
 /* .buttons{
     display: flex;
     height: 12px;
